@@ -1,0 +1,98 @@
+.body {
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .nav_logo {
+    width: 13%;
+  }
+  .logo {
+    width: 100%;
+    margin-left: 10%;
+  }
+  .search_box {
+    width: 30%;
+    margin-left: 68px;
+    position: relative;
+  }
+  .search_icon {
+    position: absolute;
+    left: 23%;
+      top: 39%;
+      z-index: 1;
+      font-size: 20px;
+  }
+  
+  .menu ul li a {
+    color: #001100 !important;
+    padding: 10px 20px !important;
+    transition: 0.4s;
+  }
+  .menu ul li a:hover {
+    background-color: #f9a51a !important;
+    border-radius: 5px;
+  }
+  /* header ends */
+  
+  /* =====Search.html===== */
+  
+  /* feature section */
+  .feature {
+    padding-bottom: 50px;
+  }
+  .top_p {
+    color: #b2b2b2;
+    font-size: 16px;
+  }
+  .top_h2 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .search_item {
+    padding-top: 34px;
+  }
+  
+  .search_img img {
+    width: 100%;
+  }
+  .description {
+      
+  }
+  
+  .description h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .description p {
+    font-size: 15px !important;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 8px;
+    color: black;
+  }
+  .feature_icon {
+    padding-right: 10px;
+  }
+  #total {
+    font-weight: 300;
+    color: #898989;
+    margin-left: 10px;
+  }
+  
+  /* map */
+  .map {
+    padding-top: 50px;
+  }
+  
+  

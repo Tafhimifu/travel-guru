@@ -1,0 +1,38 @@
+header {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.nav_logo {
+    width: 40%;
+}
+.logo {
+    width: 100%;
+    margin-left: 10%;
+}
+.search_box {
+    width: 30%;
+    margin-left: 68px;
+    position: relative;
+    font-weight: 500;
+    
+}
+.search_icon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 23%;
+    top: 39%;
+    z-index: 1; 
+    font-size: 20px;
+    color: #f2f2f2;
+}
+.menu ul li a {
+    padding: 10px 20px !important;
+    transition: 0.4s;
+}
+.menu ul li a:hover {
+    background-color: #f9a51a !important;
+    color: black !important;
+    border-radius: 5px;
+}
+

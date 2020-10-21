@@ -1,0 +1,63 @@
+.body {
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+.color-overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../../../image/backgroundImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    
+}
+
+.my-form {
+    padding-bottom: 60px;
+    margin-bottom: 200px;
+  }
+
+.form_area {
+    margin: 0 auto;
+    border: 1px solid #c5c5c5;
+    margin-top: 80px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 240px;
+}
+
+.form-group label {
+    color: #818181;
+    font-weight: 500;
+}
+
+.formInput {
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #000000;
+    background-color: #f2f2f2;
+}
+
+.loginButton {
+    min-width: 100%;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 3px;
+    background: #f9a51a;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+.loginButton:hover {
+    background-color: #001100;
+    color: white;
+}

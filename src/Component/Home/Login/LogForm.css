@@ -1,0 +1,17 @@
+
+.login{
+    border:1px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.login-form{
+    margin-left:20px;
+    margin-right: 20px;
+    
+}
+h4{
+    margin-top: 20px;
+    margin-bottom:20px;
+}

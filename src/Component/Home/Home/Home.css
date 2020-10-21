@@ -1,0 +1,51 @@
+.background {
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("../../../image/backgroundImage.png"); 
+    background-size: cover;
+    width: auto;
+    height: auto;
+  }
+  
+.adjust{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.description{
+    width: 30%;
+    height: auto;
+    margin: 20px;
+    display: none;     
+}
+
+.card-area{
+    display: flex;
+    width: 60%;
+    margin-bottom: 200px;
+    height: 304px;
+}   
+
+.card-display{
+    border: hidden;
+    width: 12rem;
+    margin: 5px;
+}
+
+.card-display:hover{
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+}
+
+.btn-adjust{
+    width: 130px;
+    height: 35px;
+    top: 250px;
+    left: 45px;
+    border: none;
+    border-radius: 10px;
+    
+
+}
+
+
+  
